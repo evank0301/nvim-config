@@ -2,5 +2,6 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 
 require("config.lazy")
-require("lazy").setup("plugins")
+require("config.telescope")
 
+require("lazy").setup("plugins")
