@@ -1,5 +1,6 @@
 vim.opt.number = true
 vim.opt.relativenumber = true
+vim.opt.scrolloff = 10
 
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
